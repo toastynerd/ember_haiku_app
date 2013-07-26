@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require foundation
 //= require turbolinks
 //= require handlebars
 //= require ember
@@ -21,3 +22,5 @@
 EmberHaiku = Ember.Application.create();
 
 //= require_tree .
+
+$(function(){ $(document).foundation(); });

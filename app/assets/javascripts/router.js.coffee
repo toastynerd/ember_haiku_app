@@ -1,3 +1,3 @@
 EmberHaiku.Router.map (match)->
-  # match('/').to('index')
+   match('/').to('index')
 
